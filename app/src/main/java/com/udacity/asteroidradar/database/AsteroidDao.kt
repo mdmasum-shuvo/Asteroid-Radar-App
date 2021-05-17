@@ -26,4 +26,5 @@ interface AsteroidDao {
 
     @Query("DELETE FROM Asteroid")
     fun deleteAll()
+
 }

@@ -25,10 +25,6 @@ import retrofit2.HttpException
 class RefreshDataWorker(appContext: Context, params: WorkerParameters):
         CoroutineWorker(appContext, params) {
 
-    companion object {
-        const val WORK_NAME = "RefreshDataWorker"
-    }
-
     /**
      * A coroutine-friendly method to do your work.
      * Note: In recent work version upgrade, 1.0.0-alpha12 and onwards have a breaking change.
@@ -45,5 +41,9 @@ class RefreshDataWorker(appContext: Context, params: WorkerParameters):
         } catch (e: HttpException) {
             Result.retry()
         }
+    }
+
+    companion object {
+        const val WORK_NAME = "RefreshDataWorker"
     }
 }

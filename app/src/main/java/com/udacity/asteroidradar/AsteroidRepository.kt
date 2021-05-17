@@ -65,7 +65,7 @@ class AsteroidRepository(private val database: AsteroidDatabase) {
                     ?:
                     // Return an empty picture
                     PictureOfDay(-1, "image", "", "")
-                database.pictureDao().insert(pic)
+                database.pictureDao().updateData(pic)
                 Log.e("data", "")
 
             } catch (e: Exception) {
@@ -77,16 +77,5 @@ class AsteroidRepository(private val database: AsteroidDatabase) {
     }
 
 
-//    fun filterAsteroid() {
-//        asteroidList = Transformations.map(
-//            database.asteroidDao().getAll()
-//        ) {
-//            it
-//        }
-//
-//        /*     asteroidList = database.asteroidDao().getTodayAsteroid(Constants.getCurrentDate())
-//             Log.e("data", "")*/
-//
-//    }
 
 }
