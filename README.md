@@ -24,7 +24,7 @@ In order to run the app, you need an API Key which is provided for you in that s
 The most important dependencies used are:
 - Retrofit to download the data from the Internet.
 - Moshi to convert the JSON data we are downloading to usable data in form of custom classes.
-- Picasso to download and cache images.
+- GLide to download and cache images.
 - RecyclerView to display the asteroids in a list.
 
 The following components from the Jetpack library are used:
@@ -41,7 +41,7 @@ The following components from the Jetpack library are used:
 * [Navigation Component](https://developer.android.com/guide/navigation/navigation-getting-started) - Android Jetpack's Navigation component, used for Fragment-based navigation 
 * [Retrofit](https://github.com/square/retrofit) - a type-safe HTTP client for Android and Java
 * [Moshi](https://github.com/square/moshi) - a modern JSON library for Android and Java, that makes it easy to parse JSON into Java or Kotlin objects
-* [Picasso](https://square.github.io/picasso) - a powerful image downloading and caching library for Android
+* [Glide](https://square.github.io/picasso) - a powerful image downloading and caching library for Android
 * [Android Architecture Components](https://developer.android.com/topic/libraries/architecture) - a collection of libraries that help design robust, testable, and maintainable apps: Room (a SQLite object mapping library), LiveData (builds data objects that notify views when the underlying database changes), ViewModel (stores UI-related data that isn't destroyed on app rotations)
 * [Data Binding](https://developer.android.com/topic/libraries/data-binding) - a Jetpack support library that allows  to bind UI components in your layouts to data sources in your app using a declarative format rather than programmatically
 * [MVVM](https://developer.android.com/jetpack/guide) - the architecture pattern used in the app (Model-View-ViewModel), that incorporates the Android Architecture Components
