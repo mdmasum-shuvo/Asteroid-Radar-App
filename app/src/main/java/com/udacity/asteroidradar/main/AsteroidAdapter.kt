@@ -1,5 +1,3 @@
-
-
 package com.udacity.asteroidradar.main
 
 import android.view.LayoutInflater
@@ -12,11 +10,11 @@ import com.udacity.asteroidradar.Asteroid
 import com.udacity.asteroidradar.databinding.ItemAsteroidBinding
 
 
-class AsteroidAdapter(val onClickListener: OnClickListener ) :
-        ListAdapter<Asteroid, AsteroidAdapter.AsteroidPropertyViewHolder>(DiffCallback) {
+class AsteroidAdapter(val onClickListener: OnClickListener) :
+    ListAdapter<Asteroid, AsteroidAdapter.AsteroidPropertyViewHolder>(DiffCallback) {
 
-    class AsteroidPropertyViewHolder(private var binding: ItemAsteroidBinding):
-            RecyclerView.ViewHolder(binding.root) {
+    class AsteroidPropertyViewHolder(private var binding: ItemAsteroidBinding) :
+        RecyclerView.ViewHolder(binding.root) {
         fun bind(asteroid: Asteroid) {
             binding.data = asteroid
             // This is important, because it forces the data binding to execute immediately,
@@ -36,9 +34,16 @@ class AsteroidAdapter(val onClickListener: OnClickListener ) :
         }
     }
 
-    override fun onCreateViewHolder(parent: ViewGroup,
-                                    viewType: Int): AsteroidPropertyViewHolder {
-        return AsteroidPropertyViewHolder(ItemAsteroidBinding.inflate(LayoutInflater.from(parent.context)))
+    override fun onCreateViewHolder(
+        parent: ViewGroup,
+        viewType: Int
+    ): AsteroidPropertyViewHolder {
+        return AsteroidPropertyViewHolder(
+            ItemAsteroidBinding.inflate(
+                LayoutInflater.from(parent.context), parent,
+                false
+            )
+        )
     }
 
     override fun onBindViewHolder(holder: AsteroidPropertyViewHolder, position: Int) {
@@ -49,7 +54,7 @@ class AsteroidAdapter(val onClickListener: OnClickListener ) :
         holder.bind(asteroid)
     }
 
-    class OnClickListener(val clickListener: (asteroid:Asteroid) -> Unit) {
-        fun onClick(asteroid:Asteroid) = clickListener(asteroid)
+    class OnClickListener(val clickListener: (asteroid: Asteroid) -> Unit) {
+        fun onClick(asteroid: Asteroid) = clickListener(asteroid)
     }
 }

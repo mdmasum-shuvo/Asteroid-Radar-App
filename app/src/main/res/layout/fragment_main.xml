@@ -58,7 +58,9 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/activity_main_image_of_the_day_layout"
             app:listData="@{viewModel.asteroidList}"
-            tools:listitem="@layout/item_asteroid" />
+            tools:listitem="@layout/item_asteroid"
+            android:contentDescription="@string/this_is_nasa_s_picture_of_day_showing_nothing_yet"
+            />
 
         <ProgressBar
             android:id="@+id/status_loading_wheel"

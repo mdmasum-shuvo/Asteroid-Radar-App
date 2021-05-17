@@ -21,9 +21,13 @@ package com.udacity.asteroidradar.network
 import com.jakewharton.retrofit2.adapter.kotlin.coroutines.CoroutineCallAdapterFactory
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory
+import com.udacity.asteroidradar.BuildConfig
 import com.udacity.asteroidradar.Constants
 import com.udacity.asteroidradar.PictureOfDay
 import kotlinx.coroutines.Deferred
+import okhttp3.Interceptor
+import okhttp3.OkHttpClient
+import okhttp3.Response
 import org.json.JSONObject
 import retrofit2.Call
 // import kotlinx.coroutines.Deferred
@@ -32,8 +36,6 @@ import retrofit2.converter.moshi.MoshiConverterFactory
 import retrofit2.converter.scalars.ScalarsConverterFactory
 import retrofit2.http.GET
 import retrofit2.http.Query
-
-
 
 
 /**
@@ -46,7 +48,13 @@ import retrofit2.http.Query
  * Use the Retrofit builder to build a retrofit object using a Moshi converter with our Moshi
  * object.
  */
+
+val okHttpClient = OkHttpClient.Builder()
+    .addInterceptor { apiKeyInterceptor(it) }
+    .build()!!
+
 private val retrofit = Retrofit.Builder()
+    .client(okHttpClient)
     .addConverterFactory(ScalarsConverterFactory.create())
     .addCallAdapterFactory(CoroutineCallAdapterFactory())
     .baseUrl(Constants.BASE_URL)
@@ -58,7 +66,8 @@ private val retrofit = Retrofit.Builder()
 interface NasaApiService {
 
     @GET("neo/rest/v1/feed")
-    suspend fun getAsteroids(@Query("api_key") apiKey: String): String
+    suspend fun getAsteroids(
+    ): String
 
     @GET("planetary/apod")
     suspend fun getPictureOfDay(@Query("api_key") apiKey: String): String
@@ -69,4 +78,20 @@ interface NasaApiService {
  */
 object NasaApi {
     val retrofitService: NasaApiService by lazy { retrofit.create(NasaApiService::class.java) }
+}
+
+
+private fun apiKeyInterceptor(it: Interceptor.Chain): Response {
+    val originalRequest = it.request()
+    val originalHttpUrl = originalRequest.url()
+
+    val newHttpUrl = originalHttpUrl.newBuilder()
+        .addQueryParameter("api_key", BuildConfig.API_KEY)
+        .build()
+
+    val newRequest = originalRequest.newBuilder()
+        .url(newHttpUrl)
+        .build()
+
+    return it.proceed(newRequest)
 }
