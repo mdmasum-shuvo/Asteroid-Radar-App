@@ -24,7 +24,7 @@ In order to run the app, you need an API Key which is provided for you in that s
 The most important dependencies used are:
 - Retrofit to download the data from the Internet.
 - Moshi to convert the JSON data we are downloading to usable data in form of custom classes.
-- Picasso to download and cache images.
+- Glide to download and cache images.
 - RecyclerView to display the asteroids in a list.
 
 The following components from the Jetpack library are used:
