@@ -60,9 +60,13 @@ distributionUrl = https\://services.gradle.org/distributions/gradle-6.1.1-all.zi
 <img src="https://user-images.githubusercontent.com/33599053/106517494-ddb0d800-64d8-11eb-880a-e88bb70599a1.png" width=30% height=30%> 
 
 
+
+
 ## Code review from udacity :D 
 
+<img src="https://www.udacity.com/blog/wp-content/uploads/2020/10/Udacity-Logo_Blue-1.png" > 
 <img src="https://raw.githubusercontent.com/mdmasum-shuvo/Asteroid-Radar-App/master/ss/Capture1.PNG" > 
+
 <img src="https://raw.githubusercontent.com/mdmasum-shuvo/Asteroid-Radar-App/master/ss/Capture2.PNG" > 
 <img src="https://raw.githubusercontent.com/mdmasum-shuvo/Asteroid-Radar-App/master/ss/Capture3.PNG" > 
 <img src="https://raw.githubusercontent.com/mdmasum-shuvo/Asteroid-Radar-App/master/ss/Capture4.PNG" > 
