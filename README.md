@@ -58,3 +58,25 @@ distributionUrl = https\://services.gradle.org/distributions/gradle-6.1.1-all.zi
 <img src="https://user-images.githubusercontent.com/33599053/106517488-dbe71480-64d8-11eb-9cb9-7e03057577bb.png" width=30% height=30%> 
 <img src="https://user-images.githubusercontent.com/33599053/106517491-dc7fab00-64d8-11eb-8ac0-524881e2a52f.png" width=30% height=30%> 
 <img src="https://user-images.githubusercontent.com/33599053/106517494-ddb0d800-64d8-11eb-880a-e88bb70599a1.png" width=30% height=30%> 
+
+
+## Code review from udacity :D 
+
+<img src="https://raw.githubusercontent.com/mdmasum-shuvo/Asteroid-Radar-App/master/ss/Capture1.PNG" width=30% height=30%> 
+<img src="https://raw.githubusercontent.com/mdmasum-shuvo/Asteroid-Radar-App/master/ss/Capture2.PNG" width=30% height=30%> 
+<img src="https://raw.githubusercontent.com/mdmasum-shuvo/Asteroid-Radar-App/master/ss/Capture3.PNG" width=30% height=30%> 
+<img src="https://raw.githubusercontent.com/mdmasum-shuvo/Asteroid-Radar-App/master/ss/Capture4.PNG" width=30% height=30%> 
+<img src="https://raw.githubusercontent.com/mdmasum-shuvo/Asteroid-Radar-App/master/ss/Capture5.PNG" width=30% height=30%> 
+<img src="https://raw.githubusercontent.com/mdmasum-shuvo/Asteroid-Radar-App/master/ss/Capture6.PNG" width=30% height=30%> 
+<img src="https://raw.githubusercontent.com/mdmasum-shuvo/Asteroid-Radar-App/master/ss/Capture7.PNG" width=30% height=30%> 
+<img src="https://raw.githubusercontent.com/mdmasum-shuvo/Asteroid-Radar-App/master/ss/Capture8.PNG" width=30% height=30%> 
+<img src="https://raw.githubusercontent.com/mdmasum-shuvo/Asteroid-Radar-App/master/ss/Capture9.PNG" width=30% height=30%> 
+<img src="https://raw.githubusercontent.com/mdmasum-shuvo/Asteroid-Radar-App/master/ss/Capture10.PNG" width=30% height=30%> 
+<img src="https://raw.githubusercontent.com/mdmasum-shuvo/Asteroid-Radar-App/master/ss/Capture11.PNG" width=30% height=30%> 
+<img src="https://raw.githubusercontent.com/mdmasum-shuvo/Asteroid-Radar-App/master/ss/Capture12.PNG" width=30% height=30%> 
+<img src="https://raw.githubusercontent.com/mdmasum-shuvo/Asteroid-Radar-App/master/ss/Capture13.PNG" width=30% height=30%> 
+<img src="https://raw.githubusercontent.com/mdmasum-shuvo/Asteroid-Radar-App/master/ss/Capture14.PNG" width=30% height=30%> 
+
+
+
+
