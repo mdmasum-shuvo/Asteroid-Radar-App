@@ -58,3 +58,29 @@ distributionUrl = https\://services.gradle.org/distributions/gradle-6.1.1-all.zi
 <img src="https://user-images.githubusercontent.com/33599053/106517488-dbe71480-64d8-11eb-9cb9-7e03057577bb.png" width=30% height=30%> 
 <img src="https://user-images.githubusercontent.com/33599053/106517491-dc7fab00-64d8-11eb-8ac0-524881e2a52f.png" width=30% height=30%> 
 <img src="https://user-images.githubusercontent.com/33599053/106517494-ddb0d800-64d8-11eb-880a-e88bb70599a1.png" width=30% height=30%> 
+
+
+
+
+## Code review from udacity :D 
+
+<img src="https://www.udacity.com/blog/wp-content/uploads/2020/10/Udacity-Logo_Blue-1.png" > 
+<img src="https://raw.githubusercontent.com/mdmasum-shuvo/Asteroid-Radar-App/master/ss/Capture1.PNG" > 
+
+<img src="https://raw.githubusercontent.com/mdmasum-shuvo/Asteroid-Radar-App/master/ss/Capture2.PNG" > 
+<img src="https://raw.githubusercontent.com/mdmasum-shuvo/Asteroid-Radar-App/master/ss/Capture3.PNG" > 
+<img src="https://raw.githubusercontent.com/mdmasum-shuvo/Asteroid-Radar-App/master/ss/Capture4.PNG" > 
+<img src="https://raw.githubusercontent.com/mdmasum-shuvo/Asteroid-Radar-App/master/ss/Capture5.PNG" > 
+<img src="https://raw.githubusercontent.com/mdmasum-shuvo/Asteroid-Radar-App/master/ss/Capture6.PNG" > 
+<img src="https://raw.githubusercontent.com/mdmasum-shuvo/Asteroid-Radar-App/master/ss/Capture7.PNG" > 
+<img src="https://raw.githubusercontent.com/mdmasum-shuvo/Asteroid-Radar-App/master/ss/Capture8.PNG" > 
+<img src="https://raw.githubusercontent.com/mdmasum-shuvo/Asteroid-Radar-App/master/ss/Capture9.PNG" > 
+<img src="https://raw.githubusercontent.com/mdmasum-shuvo/Asteroid-Radar-App/master/ss/Capture10.PNG"> 
+<img src="https://raw.githubusercontent.com/mdmasum-shuvo/Asteroid-Radar-App/master/ss/Capture11.PNG"> 
+<img src="https://raw.githubusercontent.com/mdmasum-shuvo/Asteroid-Radar-App/master/ss/Capture12.PNG"> 
+<img src="https://raw.githubusercontent.com/mdmasum-shuvo/Asteroid-Radar-App/master/ss/Capture13.PNG" > 
+<img src="https://raw.githubusercontent.com/mdmasum-shuvo/Asteroid-Radar-App/master/ss/Capture14.PNG" > 
+
+
+
+
