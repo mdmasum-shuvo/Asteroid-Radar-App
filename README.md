@@ -18,7 +18,7 @@ To build this project the NASA NeoWS (Near Earth Object Web Service) API is used
 https://api.nasa.gov/
 
 In order to run the app, you need an API Key which is provided for you in that same link, just fill the fields in the form and click Signup.
-
+save the api key in your local.properties folder as `api_key="you api key"
 ## Dependencies
 
 The most important dependencies used are:
